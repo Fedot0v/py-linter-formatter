@@ -22,4 +22,4 @@ def format_linter_report(linter_report: dict) -> list:
     return [
         format_single_linter_file(report, linter_report[report])
         for report in linter_report
-        ]
+    ]
